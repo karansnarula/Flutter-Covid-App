@@ -1,6 +1,6 @@
 # coronavirus_rest_api_flutter_course
 
-A new Flutter project.
+Covid 19 Tracker app used using Flutter and Rest API :)
 
 ## Getting Started
 
