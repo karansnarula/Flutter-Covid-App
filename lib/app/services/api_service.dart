@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 class APIService {
   final API api;
   APIService(this.api);
+
   Future<String> getAccessToken() async {
     final response = await http.post(
       api.tokenUri(),
@@ -35,9 +36,7 @@ class APIService {
         final Map<String, dynamic> endpointData = data[0];
         final String responseJsonKey = _responseJsonKeys[endpoint] as String;
         final int result = endpointData[responseJsonKey];
-        if (result != null) {
-          return result;
-        }
+        return result;
       }
     }
     throw response;
