@@ -1,6 +1,6 @@
 # coronavirus_rest_api_flutter_course
 
-Covid 19 Tracker app made with Flutter and Rest API :)
+Covid 19 Tracker app made with Flutter and Rest API of https://ncov2019-admin.firebaseapp.com/#/ :)
 
 ## Getting Started
 
